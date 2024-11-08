@@ -1,0 +1,16 @@
+<!-- <routes>
+    <vType id="car" type="passenger" length="5" accel="3.5" decel="2.2" sigma="1.0"/>
+    <flow id="car1" type="car" begin="0" end="0" number="3" from="E0" to="E7"/>
+</routes> -->
+<routes>
+    <vType id="car" type="passenger" length="5" accel="3.5" decel="2.2" sigma="1.0"/>
+    
+    <!-- Vehicle 1 starting from edge E0 -->
+    <flow id="car1" type="car" begin="0" end="0" number="1" from="E0" to="E7"/>
+    
+    <!-- Vehicle 2 starting from edge E1 -->
+    <flow id="car2" type="car" begin="0" end="0" number="1" from="E1" to="E7"/>
+    
+    <!-- Vehicle 3 starting from edge E2 -->
+    <flow id="car3" type="car" begin="0" end="0" number="1" from="E2" to="E7"/>
+</routes>
